@@ -8,8 +8,8 @@ export default defineConfig({
     react(),
     vitePluginReactMetadata({
       routeToFileMap: {
-        "/": "/src/meta/index",
-        "/home": "/src/meta/index",
+        "/": "./src/meta/index",
+        "/home": "./src/meta/index",
       },
     }),
   ],
