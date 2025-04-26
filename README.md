@@ -5,13 +5,26 @@ A Vite plugin and sample project for managing and injecting metadata (such as `<
 ---
 
 ## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Client Part Status](#client-part-status)
-- [License](#license)
+- [vite-plugin-react-metadata-sample](#vite-plugin-react-metadata-sample)
+  - [Table of Contents](#table-of-contents)
+  - [What I'm Working On](#what-im-working-on)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Configuration](#configuration)
+  - [API Reference](#api-reference)
+    - [`generateMetadata()`](#generatemetadata)
+  - [Client Part Status](#client-part-status)
+  - [License](#license)
+
+---
+
+## What I'm Working On
+
+| Feature                         | Status    | Notes                                         |
+|---------------------------------|-----------|-----------------------------------------------|
+| Better client-side              | Ongoing   | Improve metadata updates on client navigation |
+| More like Next.js implementation|  Ongoing   | Closer API and DX to Next.js metadata         |
 
 ---
 
