@@ -1,4 +1,4 @@
-import { Metadata } from "vite-plugin-react-metadata/types";
+import { Metadata } from "vite-plugin-react-metadata-ssr/types";
 
 export async function generateMetadata() {
   let defaultMetadata = {
