@@ -13,7 +13,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router": "^7.5.2",
-    "vite-plugin-react-metadata-ssr": "1.1.0"
+    "vite-plugin-document-head": "^1.0.0-commit-fe8e20c"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",

@@ -1,11 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import vitePluginReactMetadata from "vite-plugin-react-metadata-ssr/plugin";
+import vitePluginDocumentHead from "vite-plugin-document-head/plugin";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    vitePluginReactMetadata({
+    vitePluginDocumentHead({
       routeToFileMap: {
         "/": "src/meta/index.ts",
         "/home": "src/meta/index.ts",
