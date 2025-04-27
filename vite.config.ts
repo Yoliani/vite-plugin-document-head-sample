@@ -7,8 +7,9 @@ export default defineConfig({
     react(),
     vitePluginDocumentHead({
       routeToFileMap: {
-        "/": "src/meta/index.ts",
-        "/home": "src/meta/index.ts",
+        '^/product/[^/]+$': 'src/meta/product-detail.ts',
+        '/home': 'src/meta/index.ts',
+        '/': 'src/meta/index.ts'
       },
       verbose: true,
     }),
